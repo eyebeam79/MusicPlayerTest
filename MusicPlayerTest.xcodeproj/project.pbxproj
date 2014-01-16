@@ -21,6 +21,9 @@
 		B3357EE118879F250025F6C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3357EC318879F250025F6C4 /* UIKit.framework */; };
 		B3357EE918879F250025F6C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3357EE718879F250025F6C4 /* InfoPlist.strings */; };
 		B3357EEB18879F250025F6C4 /* MusicPlayerTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3357EEA18879F250025F6C4 /* MusicPlayerTestTests.m */; };
+		B3357EF61887A01B0025F6C4 /* Blackbird Blackbird - Left To Hurt.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B3357EF51887A01B0025F6C4 /* Blackbird Blackbird - Left To Hurt.mp3 */; };
+		B3357EF81887A0270025F6C4 /* Chad VanGaalen - Sara.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B3357EF71887A0260025F6C4 /* Chad VanGaalen - Sara.mp3 */; };
+		B3357EFA1887A7C40025F6C4 /* Motorama - Lantern.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B3357EF91887A7C40025F6C4 /* Motorama - Lantern.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		B3357EE618879F250025F6C4 /* MusicPlayerTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MusicPlayerTestTests-Info.plist"; sourceTree = "<group>"; };
 		B3357EE818879F250025F6C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B3357EEA18879F250025F6C4 /* MusicPlayerTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerTestTests.m; sourceTree = "<group>"; };
+		B3357EF51887A01B0025F6C4 /* Blackbird Blackbird - Left To Hurt.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Blackbird Blackbird - Left To Hurt.mp3"; sourceTree = "<group>"; };
+		B3357EF71887A0260025F6C4 /* Chad VanGaalen - Sara.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Chad VanGaalen - Sara.mp3"; sourceTree = "<group>"; };
+		B3357EF91887A7C40025F6C4 /* Motorama - Lantern.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Motorama - Lantern.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,7 @@
 		B3357EC518879F250025F6C4 /* MusicPlayerTest */ = {
 			isa = PBXGroup;
 			children = (
+				B3357EF418879FF40025F6C4 /* Resources */,
 				B3357ECE18879F250025F6C4 /* AppDelegate.h */,
 				B3357ECF18879F250025F6C4 /* AppDelegate.m */,
 				B3357ED118879F250025F6C4 /* Main.storyboard */,
@@ -150,6 +157,16 @@
 				B3357EE718879F250025F6C4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3357EF418879FF40025F6C4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B3357EF91887A7C40025F6C4 /* Motorama - Lantern.mp3 */,
+				B3357EF71887A0260025F6C4 /* Chad VanGaalen - Sara.mp3 */,
+				B3357EF51887A01B0025F6C4 /* Blackbird Blackbird - Left To Hurt.mp3 */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +245,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3357EF81887A0270025F6C4 /* Chad VanGaalen - Sara.mp3 in Resources */,
 				B3357ED818879F250025F6C4 /* Images.xcassets in Resources */,
 				B3357ECA18879F250025F6C4 /* InfoPlist.strings in Resources */,
+				B3357EF61887A01B0025F6C4 /* Blackbird Blackbird - Left To Hurt.mp3 in Resources */,
 				B3357ED318879F250025F6C4 /* Main.storyboard in Resources */,
+				B3357EFA1887A7C40025F6C4 /* Motorama - Lantern.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
